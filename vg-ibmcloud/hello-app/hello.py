@@ -8,7 +8,7 @@ port = int(os.getenv("PORT"))
 
 @app.route('/')
 def hello_world():
-    return 'Hello NYU Cloud and Machine Learning Students! I am running on port ' + str(port)
+    return 'Hello NTU Cloud and Machine Learning Students! I am running on port ' + str(port)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port)
